@@ -1,2 +1,2 @@
-Trial 1 includes testing that the RFID reader functions properly. The first trial was done by an Arduino Uno.
-Trial 2 utilizes a struct and array to store the UID, name and ID and display it should the rfid scanned be stored in the code.
+RFID_Testing.ino will contain all the tests from making sure the sensor works to indicating whether the UID scanned has entered or left. Will indicate this using the LEDs.
+DHT22_Testing will contain all tests as well. Making sure the sensor works and having a fan work when temperature passes a certain threshold. 
