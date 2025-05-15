@@ -29,6 +29,7 @@ void setup() {
   SPI.begin();
   rfid.PCD_Init();
   delay(4); 
+  rfid.PCD_SetAntennaGain(rfid.RxGain_max); //based on the github this makes it more accurate and based on my testting it semi functions 
 
   Serial.println("RFID reader initialized.");
   Serial.println("Scan an RFID tag...");
