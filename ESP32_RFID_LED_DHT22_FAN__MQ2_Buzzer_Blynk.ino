@@ -3,8 +3,8 @@
 #define BLYNK_TEMPLATE_NAME ""
 #define BLYNK_AUTH_TOKEN    ""   
 //WIFI
-const char* ssid     = "arvicola";                     
-const char* password = "scotland";                 
+const char* ssid     = "";                     
+const char* password = "";                 
 //LIBRARIES
 #include <WiFi.h>                                          
 #include <BlynkSimpleEsp32.h>                              
